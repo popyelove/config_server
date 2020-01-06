@@ -1,0 +1,14 @@
+{
+  "ServerId" : 20001,
+  "ClientListenAddr" : "0.0.0.0:18888",
+  "ClientIp": "192.168.4.101",
+  "ClientPort": 18888,
+  "MaxConnectCount" : 5000,
+  "RoomCenterServerAddr" : "127.0.0.1:7777",
+  
+  "LogDir" : "pvp_log",
+  "OldLogDir" : "pvp_oldlog",
+  "OutConsole" : true ,
+
+  "ServerMode" : "udp"
+}

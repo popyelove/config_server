@@ -1,0 +1,11 @@
+{
+  "ServerId" : 10001,
+  "DbAddr" : "root:123456@tcp(127.0.0.1:3306)/k8_ele?charset=utf8",
+  "MaxConnectCount" : 10000,
+  "XmlDir" : "D:\\git\\elemental_server_go\\src\\lib\\table\\xml",
+
+  "TLogUdpAddr" : "172.16.0.11:10001",
+  "LogDir" : "game1_log",
+  "OldLogDir" : "game1_oldlog",
+  "OutConsole" : true 
+}

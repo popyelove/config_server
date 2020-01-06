@@ -1,0 +1,13 @@
+{
+  "RpcListenAddr" : "127.0.0.1:17777",
+
+  "CoreDbDsn" : "root:123456@tcp(127.0.0.1:3306)/rankCore?charset=utf8",
+  "RankDbDsn" : "root:123456@tcp(127.0.0.1:3306)/?charset=utf8",
+  "XmlDir" : "D:\\git\\elemental_server_go\\src\\lib\\table\\xml",
+  "SendReward" : true,
+
+  "LanguageId" : 1,
+  "LogDir" : "rank_log",
+  "OldLogDir" : "rank_oldlog",
+  "OutConsole" : true
+}

@@ -1,0 +1,8 @@
+{
+  "RoomListen" : "127.0.0.1:7777",
+  "RpcListenAddr" : "127.0.0.1:17776",
+  
+  "LogDir" : "rcs_log",
+  "OldLogDir" : "rcs_oldlog",
+  "OutConsole" : true  
+}

@@ -1,0 +1,7 @@
+{
+  "ServerId" : 30001,
+
+  "LogDir" : "ac_log",
+  "OldLogDir" : "ac_oldlog",
+  "OutConsole" : true
+}

@@ -1,0 +1,12 @@
+{
+  "Cluster" : [
+    {
+      "ServerId" : 10001,
+      "ExternalListenAddr" : "0.0.0.0:9991",
+      "ExternalExportAddr" : "192.168.4.101:9991",
+      "RpcListenAddr" : "127.0.0.1:17761",
+      "DebugListenAddr" : "127.0.0.1:11111",
+      "ProfileListenAddr" : "0.0.0.0:18991"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "LogDir" : "discovery_log",
+  "OldLogDir" : "discovery_oldlog",
+  "OutConsole" : true
+}

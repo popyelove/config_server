@@ -1,0 +1,12 @@
+{
+  "HttpListenAddr" : "0.0.0.0:6777",
+
+  "GmDbAddr" : "root:123456@tcp(127.0.0.1:3306)/gm?charset=utf8",
+  "GameDbAddr" : "root:123456@tcp(127.0.0.1:3306)/k8_ele?charset=utf8",
+
+  "WebRootPath" : "",
+
+  "LogDir" : "gm_log",
+  "OldLogDir" : "gm_oldlog",
+  "OutConsole" : true 
+}

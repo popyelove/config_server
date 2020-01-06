@@ -1,0 +1,9 @@
+{
+  "RpcListenAddr" : "127.0.0.1:17773",
+
+  "DbAddr" : "root:123456@tcp(127.0.0.1:3306)/k8_notice?charset=utf8",
+
+  "LogDir" : "notice_log",
+  "OldLogDir" : "notice_oldlog",
+  "OutConsole" : true
+}

@@ -1,0 +1,7 @@
+{
+  "LanguageId" : 1,
+  "DiscoveryAddr" : "127.0.0.1:9111",
+  "Platform" : 0,
+
+  "SignKey" : []
+}

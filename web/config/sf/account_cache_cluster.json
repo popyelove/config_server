@@ -1,0 +1,18 @@
+{
+  "Cluster" : [
+    {
+      "ServerId" : 30001,
+      "RpcListenAddr" : "127.0.0.1:17179",
+      "DbNodes": [
+        {
+          "DbDsn" : "root:123456@tcp(127.0.0.1:3306)/dbele?charset=utf8",
+          "TableSlice" : ["acc1", "acc2", "acc3", "acc4", "acc5"]
+        },
+	{
+          "DbDsn" : "root:123456@tcp(10.0.6.209:3306)/dbele?charset=utf8",
+          "TableSlice" : ["acc1", "acc2", "acc3", "acc4", "acc5"]
+        }
+      ]
+    }
+  ]
+}

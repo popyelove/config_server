@@ -1,0 +1,9 @@
+{
+  "RpcListenAddr" : "127.0.0.1:17774",
+
+  "DbAddr" : "root:123456@tcp(127.0.0.1:3306)/dbele?charset=utf8",
+
+  "LogDir" : "ban_log",
+  "OldLogDir" : "ban_oldlog",
+  "OutConsole" : true
+}

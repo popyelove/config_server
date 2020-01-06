@@ -1,0 +1,7 @@
+{
+  "GameDbAddr" : "root:123456@tcp(127.0.0.1:3306)/k8_ele?charset=utf8",
+  "IdipListenAddr" : "0.0.0.0:7766",
+  "LogDir" : "idip_log",
+  "OldLogDir" : "idip_oldlog",
+  "OutConsole" : true
+}

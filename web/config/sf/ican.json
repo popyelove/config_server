@@ -1,0 +1,7 @@
+{
+  "GameDbAddr" : "root:123456@tcp(127.0.0.1:3306)/k8_ele?charset=utf8",
+  "ICanRechargeCbListenAddr" : "0.0.0.0:6779",
+  "LogDir" : "ican_log",
+  "OldLogDir" : "ican_oldlog",
+  "OutConsole" : true
+}

@@ -1,0 +1,9 @@
+2020/01/04 15:05:29 main.go:58: dir:meiguo
+2020/01/04 15:05:29 main.go:58: dir:meiguo-test
+2020/01/04 15:05:29 main.go:58: dir:sf
+2020/01/04 15:05:29 main.go:58: dir:tw-ceshi
+2020/01/04 15:05:29 main.go:58: dir:tw-tishen
+2020/01/04 15:05:29 main.go:58: dir:tx-ceshi
+2020/01/04 15:05:29 main.go:58: dir:huawei-ceshi
+2020/01/04 15:05:29 main.go:66: start success.
+2020/01/04 15:05:29 main.go:67: config server address: 0.0.0.0:10000

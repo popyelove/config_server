@@ -1,0 +1,14 @@
+{
+    "RpcListenAddr" : "127.0.0.1:17778",
+    "DiscoveryAddr" : "127.0.0.1:9111",
+    "DbNodes" : [
+        {
+            "Dsn" : "root:123456@tcp(127.0.0.1:3306)/dbele?charset=utf8&multiStatements=true",
+            "TableNames" : ["idgen1", "idgen2", "idgen3", "idgen4", "idgen5"]
+        },
+	{
+            "Dsn" : "root:123456@tcp(10.0.6.209:3306)/dbele?charset=utf8&multiStatements=true",
+            "TableNames" : ["idgen1", "idgen2", "idgen3", "idgen4", "idgen5"]
+        }
+    ]
+}

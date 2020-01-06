@@ -1,0 +1,9 @@
+{
+  "RpcListenAddr" : "127.0.0.1:17772",
+
+  "DbAddr" : "root:123456@tcp(127.0.0.1:3306)/dbele?charset=utf8",
+
+  "LogDir" : "cdk_log",
+  "OldLogDir" : "cdk_oldlog",
+  "OutConsole" : true
+}

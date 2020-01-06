@@ -1,0 +1,15 @@
+{
+  "ListenAddr" : "0.0.0.0:9988",
+  "AccountDbAddr" : "root:123456@tcp(127.0.0.1:3306)/dbele?charset=utf8",
+  "ConfigDbAddr" : "root:123456@tcp(127.0.0.1:3306)/dbele?charset=utf8",
+  "RpcListenAddr" : "127.0.0.1:17775",
+
+  "ServerStatus" : 0,
+  "NoticeType" : 0,
+  "NoticeContent" : "",
+  "ForbidRegister" : false,
+
+  "LogDir" : "dispatch_log",
+  "OldLogDir" : "dispatch_oldlog",
+  "OutConsole" : true
+}
