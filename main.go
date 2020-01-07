@@ -32,8 +32,7 @@ func GetConf(rep http.ResponseWriter, req *http.Request) {
 	}
 	key := req.Form["key"][0]
 	ip := req.Form["ip"][0]
-	CONF_HOST_URL := "http://127.0.0.1:10000/eleidip/idip.json"
-	idipConfStr := utils.HttpGet(CONF_HOST_URL)
+	idipConfStr := utils.ReadJsonFileAsString()
 	if idipConfStr == "" {
 		stlog.Error("访问 IDIP 配置表错误")
 	}
@@ -46,16 +45,8 @@ func GetConf(rep http.ResponseWriter, req *http.Request) {
 	rep.Write(jsstr)
 }
 func GetUdpConf(rep http.ResponseWriter, req *http.Request) {
-	err := req.ParseForm()
-	if err != nil {
-		stlog.Error("GetUdpConf", err)
-	}
-	if len(req.Form["key"]) == 0 {
-		stlog.Error("GetUdpConf", "参数不正确")
-	}
-	key := req.Form["key"][0]
-	CONF_HOST_URL := "http://127.0.0.1:10000/eleidip/idip.json"
-	idipConfStr := utils.HttpGet(CONF_HOST_URL)
+	key := "ZK_GMAEHLY_SEVER_SET"
+	idipConfStr := utils.ReadJsonFileAsString()
 	if idipConfStr == "" {
 		stlog.Error("访问配置表错误")
 	}
@@ -147,8 +138,8 @@ func main() {
 		http.ListenAndServe(listenAddr, nil)
 	}()
 	go func() {
-		http.HandleFunc("/GetUdpConf", GetUdpConf)
-		stlog.Info("ListenAndServe  ListenIPPortCGI :", ListenPort+"/GetUdpConf")
+		http.HandleFunc("/GetSvrUdpAddr", GetUdpConf)
+		stlog.Info("ListenAndServe  ListenIPPortCGI :", ListenPort+"/GetSvrUdpAddr")
 		listenAddr := "0.0.0.0:" + ListenPort
 		http.ListenAndServe(listenAddr, nil)
 	}()
