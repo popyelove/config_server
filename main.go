@@ -85,7 +85,7 @@ func main() {
 	if err != nil {
 		log.Fatal("%v", err)
 	}
-	stlog.Initialize(logDir, oldLogDir, "configserver_", "log", log.Lshortfile|log.LstdFlags, 2, 10)
+	stlog.Initialize(logDir, oldLogDir, "configserver_", "log", log.Lshortfile|log.LstdFlags, 3600, 10)
 	stlog.SetLogLevel(stlog.LogDebug)
 	stlog.SetOutConsole(true)
 	ListenPort := "8090"
