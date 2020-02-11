@@ -43,7 +43,7 @@
       "DEBUG": "0",
       "HY_TIME_OUT_RATE": ""
     },
-    "127.0.0.2": {
+    "127.0.0.1": {
       "LOCAL_SERVER_TYPE": "1",
       "CHN_SIZE": "1024",
       "UDP_BUF_SIZE": "1024",
