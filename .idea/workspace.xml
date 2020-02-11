@@ -2,11 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1983831e-2530-4d5c-befb-e48d3cab4346" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/conf/web/config/eleidip/idip.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runlinux.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bak/conf/bak.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfg.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/cfg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/cs_2020-01-06_09.47.02.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2019-12-31_10.31.00.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2019-12-31_15.16.29__2019-12-31_16.16.29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2019-12-31_16.16.29__2019-12-31_17.16.29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2019-12-31_17.16.29__2019-12-31_18.16.29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2019-12-31_18.16.29__2019-12-31_19.16.29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2019-12-31_19.16.29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2019-12-31_20.02.05.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2020-01-03_18.46.07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2020-01-03_18.52.00.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2020-01-03_19.46.07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2020-01-04_15.05.29__2020-01-04_16.05.29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2020-01-04_16.05.29__2020-01-04_17.05.29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2020-01-04_17.05.29__2020-01-04_18.05.29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2020-01-04_18.05.29__2020-01-05_14.08.42.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2020-01-05_14.08.42__2020-01-05_15.08.42.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2020-01-05_15.08.42__2020-01-05_16.08.42.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2020-01-05_16.08.42__2020-01-05_17.08.42.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2020-01-05_17.08.42__2020-01-05_18.08.42.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2020-01-05_18.08.42__2020-01-05_19.08.42.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2020-01-05_19.08.42__2020-01-05_20.08.42.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2020-01-05_20.08.42__2020-01-05_21.08.42.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2020-01-05_21.08.42__2020-01-05_22.08.42.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2020-01-05_22.08.42__2020-01-05_23.08.42.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlog/cs_2020-01-06_09.46.28.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/config/eleidip/idip.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/config/eleidip/idip.json" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,29 +53,40 @@
   </component>
   <component name="ProjectId" id="1W04zwn7oO7anke3EniMUEA1t33" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../minipro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\goworkspace\src\config_server\conf" />
+      <recent name="D:\goworkspace\src\config_server" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\goworkspace\src\config_server\conf" />
       <recent name="D:\goworkspace\src\config_server\lib\stlog" />
       <recent name="D:\goworkspace\src\config_server\lib\util" />
       <recent name="D:\goworkspace\src\config_server\config_server" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -59,10 +98,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="588" y="342" key="FileChooserDialogImpl" timestamp="1579225828373">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="588" y="342" key="FileChooserDialogImpl/0.0.1600.1160@0.0.1600.1160" timestamp="1579225828373" />
   </component>
 </project>

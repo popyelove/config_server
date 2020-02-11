@@ -1,9 +1,0 @@
-[info] 2020/01/03 18:52:00 main.go:59: dir:meiguo
-[info] 2020/01/03 18:52:00 main.go:59: dir:meiguo-test
-[info] 2020/01/03 18:52:00 main.go:59: dir:sf
-[info] 2020/01/03 18:52:00 main.go:59: dir:tw-ceshi
-[info] 2020/01/03 18:52:00 main.go:59: dir:tw-tishen
-[info] 2020/01/03 18:52:00 main.go:59: dir:tx-ceshi
-[info] 2020/01/03 18:52:00 main.go:59: dir:huawei-ceshi
-[info] 2020/01/03 18:52:00 main.go:66: start success.
-[fatal] 2020/01/03 18:52:00 main.go:69: listen tcp 0.0.0.0:10000: bind: address already in use

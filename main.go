@@ -4,7 +4,6 @@ import (
 	"config_server/lib/stlog"
 	"config_server/lib/util"
 	"encoding/json"
-	"flag"
 	"fmt"
 	"idipserver/utils"
 	"io/ioutil"
@@ -74,20 +73,7 @@ func GetUdpConf(rep http.ResponseWriter, req *http.Request) {
 }
 
 //管理服务器的配置文件
-var ListenPort string
-
 func main() {
-	port := flag.String("p", "", "配置服务监听端口")
-	flag.Parse() //解析输入的参数
-	if (*port == "") {
-		fmt.Printf("请输配置服务监听端口")
-		fmt.Scanln(&ListenPort)
-	} else {
-		ListenPort = *port
-	}
-	if ListenPort == "" {
-		return
-	}
 	path, err := util.GetCurrentPath()
 	logDir := path + "log"
 	oldLogDir := path + "oldlog"
@@ -95,16 +81,15 @@ func main() {
 	if err != nil {
 		log.Fatal("%v", err)
 	}
-
 	err = os.MkdirAll(oldLogDir, os.ModePerm)
 	if err != nil {
 		log.Fatal("%v", err)
 	}
-	stlog.Initialize(logDir, oldLogDir, "cs_", "log", log.Lshortfile|log.LstdFlags, 3600, 10)
+	stlog.Initialize(logDir, oldLogDir, "configserver_", "log", log.Lshortfile|log.LstdFlags, 3600, 10)
 	stlog.SetLogLevel(stlog.LogDebug)
 	stlog.SetOutConsole(true)
-
-	f, err := os.OpenFile("cfg.json", os.O_RDONLY, 0666)
+	ListenPort := "8090"
+	f, err := os.OpenFile("./conf/cfg.json", os.O_RDONLY, 0666)
 	if err != nil {
 		log.Fatal("%v", err)
 	}
@@ -129,22 +114,22 @@ func main() {
 				fmt.Sprintf("/%s/", path),
 				http.FileServer(http.Dir(fmt.Sprintf("%s./%s/", cfg.RootPath, path)))))
 	}
-	stlog.Info("start success.")
+	log.Println("start success.")
 	log.Println("config server address:", cfg.ListenAddr)
 	go func() {
 		http.HandleFunc("/GetConf", GetConf)
-		stlog.Info("ListenAndServe  ListenIPPortCGI :", ListenPort+"/GetConf")
+		log.Println("ListenAndServe  ListenIPPortCGI :" + ListenPort + "/GetConf")
 		listenAddr := "0.0.0.0:" + ListenPort
 		http.ListenAndServe(listenAddr, nil)
 	}()
 	go func() {
 		http.HandleFunc("/GetSvrUdpAddr", GetUdpConf)
-		stlog.Info("ListenAndServe  ListenIPPortCGI :", ListenPort+"/GetSvrUdpAddr")
+		log.Println("ListenAndServe  ListenIPPortCGI :" + ListenPort + "/GetSvrUdpAddr")
 		listenAddr := "0.0.0.0:" + ListenPort
 		http.ListenAndServe(listenAddr, nil)
 	}()
 	err = http.ListenAndServe(cfg.ListenAddr, nil)
 	if err != nil {
-		stlog.Fatal("%v", err)
+		log.Println("%v", err)
 	}
 }
